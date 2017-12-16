@@ -1,6 +1,5 @@
 import os
 
-
 """
 Celery config:
 http://docs.celeryproject.org/en/latest/configuration.html
