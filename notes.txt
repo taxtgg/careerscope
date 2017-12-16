@@ -1,0 +1,8 @@
+# To start local RabbitMQ service:
+brew services start rabbitmq
+
+# To run in the forground:
+rabbitmq-server
+
+# RabbitMQ management console at:
+Management Plugin enabled by default at http://localhost:15672
