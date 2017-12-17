@@ -1,5 +1,10 @@
+from __future__ import absolute_import, unicode_literals
 from celery import Celery
-from engine import celeryconfig
 
-celery = Celery(__name__, broker=celeryconfig.CELERY_BROKER_URL)
-celery.config_from_object('celeryconfig')
+
+celery = Celery('engine')
+celery.config_from_object('engine.celeryconfig')
+
+
+if __name__ == '__main__':
+    celery.start()
