@@ -3,6 +3,7 @@ import os
 """
 Celery config:
 http://docs.celeryproject.org/en/latest/configuration.html
+http://docs.celeryproject.org/en/latest/userguide/configuration.html
 """
 
 

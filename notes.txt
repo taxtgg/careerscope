@@ -6,3 +6,12 @@ rabbitmq-server
 
 # RabbitMQ management console at:
 Management Plugin enabled by default at http://localhost:15672
+
+# To start local elasticsearch service:
+brew services start elasticsearch
+
+# Celery overview:
+http://docs.celeryproject.org/en/latest/getting-started/index.html
+http://docs.celeryproject.org/en/latest/userguide/index.html
+https://blog.balthazar-rouberol.com/celery-best-practices
+https://www.fullstackpython.com/celery.html
