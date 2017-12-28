@@ -56,14 +56,6 @@ class ScraperOutputIndex(es_dsl.DocType):
         self.extracted = datetime.datetime.now()
         return super().save(** kwargs)
 
-    def get_last_pairs(self):
-        """
-        Method for extracting current and previous result for diffing
-        :return:
-        """
-        # TODO: Implement method
-        pass
-
 
 class JobPostIndex(es_dsl.DocType):
     """
